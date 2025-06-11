@@ -14,7 +14,9 @@ dist-ssr
 
 # Editor directories and files
 .vscode/*
-!.vscode/extensions.json
+# 保留 vscode 有用設定
+!.vscode/settings.json
+!.vscode/launch.json
 .idea
 .DS_Store
 *.suo
@@ -23,6 +25,9 @@ dist-ssr
 *.sln
 *.sw?
 
+# Env files
+.pyvenv
+.env.*
 
 # 忽略大型二进制文件
 *.dll
