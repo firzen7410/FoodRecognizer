@@ -1,8 +1,16 @@
-# React + Vite
+## 安裝環境
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Python 版本建議
+建議使用 Python 3.10 以上
 
-Currently, two official plugins are available:
+### 安裝套件
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+請先建立虛擬環境，再安裝依賴：
+
+```bash
+python -m venv pyvenv
+pyvenv\Scripts\activate  # Windows 系統
+# 或 source pyvenv/bin/activate  # macOS/Linux
+
+pip install -r requirements.txt
+

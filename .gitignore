@@ -26,8 +26,8 @@ dist-ssr
 *.sw?
 
 # Env files
-.pyvenv
-.env.*
+pyvenv/
+
 
 # 忽略大型二进制文件
 *.dll
