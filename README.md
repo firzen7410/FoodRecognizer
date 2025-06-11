@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 python predict_api.py
 ## 環境設定（.env）(api.js)
-
+```
 請在專案根目錄下建立 `.env` 檔案，並填入你的資料庫設定：
 
 ```env
