@@ -22,7 +22,7 @@ python predict_api.py
 
 請在專案根目錄下建立 `.env` 檔案，並填入你的資料庫設定：
 
-```env
+```bash
 DB_USER=你的帳號
 DB_PASS=你的密碼
 DB_SERVER=localhost 或 IP
@@ -31,3 +31,13 @@ DB_NAME=你的資料庫名稱
 啟動api
 
 node api.js
+```
+###安裝react所需套件
+
+```bash
+
+npm install
+
+啟動react
+
+npm run dev
