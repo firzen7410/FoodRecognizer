@@ -23,9 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# 忽略虚拟环境
-pyvenv/
-venv/
 
 # 忽略大型二进制文件
 *.dll
