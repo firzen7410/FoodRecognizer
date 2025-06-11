@@ -14,3 +14,19 @@ pyvenv\Scripts\activate  # Windows 系統
 
 pip install -r requirements.txt
 
+載入模型api
+
+python predict_api.py
+## 環境設定（.env）(api.js)
+
+請在專案根目錄下建立 `.env` 檔案，並填入你的資料庫設定：
+
+```env
+DB_USER=你的帳號
+DB_PASS=你的密碼
+DB_SERVER=localhost 或 IP
+DB_NAME=你的資料庫名稱
+
+啟動api
+
+node api.js

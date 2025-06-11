@@ -9,6 +9,9 @@ import path from 'path';
 import { fileURLToPath } from 'url';  // Import necessary functions
 import { dirname } from 'path';
 
+import dotenv from 'dotenv';
+dotenv.config(); // 讀取 .env 檔案
+
 const app = express();
 const port = 3000;
 
@@ -29,10 +32,10 @@ app.use(bodyParser.json());
 
 // SQL Server connection configuration
 const config = {
-  user: 'jack',
-  password: 'jack',
-  server: 'localhost',
-  database: 'Game',
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  server: process.env.DB_SERVER,
+  database: process.env.DB_NAME,
   options: {
     encrypt: true,
     trustServerCertificate: true,
