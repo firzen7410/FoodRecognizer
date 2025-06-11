@@ -32,7 +32,7 @@ DB_NAME=你的資料庫名稱
 
 node api.js
 ```
-###安裝react所需套件
+### 安裝react所需套件
 
 ```bash
 
